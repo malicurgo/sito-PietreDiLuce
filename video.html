@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video | Pietre di Luce</title>
+<meta name="description" content="Video di Pietre di Luce: tour degli appartamenti e dei dintorni.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">Pietre di Luce<span>Design &amp; Comfort Apartments</span></a>
+    <nav class="nav-principale">
+      <a href="index.html">Home</a>
+      <a href="appartamenti.html">Appartamenti</a>
+      <a href="foto.html">Foto</a>
+      <a href="video.html" class="attivo">Storia e Natura</a>
+      <a href="dintorni.html">Dintorni</a>
+      <a href="contatti.html">Contatti</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Apri menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="sezione-chiara" style="padding-top:3.5rem; padding-bottom:1.5rem;">
+  <div class="container">
+    <span class="eyebrow">Galleria</span>
+    <h1>Storia e Natura</h1>
+    <p style="max-width:560px;">Un tour video degli appartamenti e degli angoli più belli nei dintorni della struttura.</p>
+  </div>
+</section>
+
+<section class="sezione-chiara" style="padding-top:0;">
+  <div class="container">
+
+    <div class="tab-cartelle">
+      <button data-target="cart-video-app" class="attivo">Appartamenti</button>
+      <button data-target="cart-video-dintorni">Nei dintorni</button>
+    </div>
+
+    <div id="cart-video-app" class="cartella-video griglia-video attiva">
+      <div class="riquadro-video">
+        <video controls preload="none" poster="immagini/appartamento1/1.jpg">
+          <source src="video/appartamenti/appartamento1.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="riquadro-video">
+        <video controls preload="none" poster="immagini/appartamento2/1.jpg">
+          <source src="video/appartamenti/appartamento2.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="riquadro-video">
+        <video controls preload="none" poster="immagini/appartamento3/1.jpg">
+          <source src="video/appartamenti/appartamento3.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="riquadro-video">
+        <video controls preload="none" poster="immagini/appartamento4/1.jpg">
+          <source src="video/appartamenti/appartamento4.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="riquadro-video">
+        <video controls preload="none" poster="immagini/appartamento5/1.jpg">
+          <source src="video/appartamenti/appartamento5.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div id="cart-video-dintorni" class="cartella-video griglia-video">
+      <div class="riquadro-video">
+        <video controls preload="none" poster="immagini/dintorni/1.jpg">
+          <source src="video/dintorni/dintorni1.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="riquadro-video">
+        <video controls preload="none" poster="immagini/dintorni/2.jpg">
+          <source src="video/dintorni/dintorni2.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-griglia">
+      <div>
+        <h4>Pietre di Luce</h4>
+        <p>Via Pianetto Borgo, 12<br>47010 Galeata (FC)</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/pietrediluce_apartments/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:18px;height:18px;"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Esplora</h4>
+        <ul>
+          <li><a href="appartamenti.html">Appartamenti</a></li>
+          <li><a href="foto.html">Foto</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="dintorni.html">Dintorni</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contatti</h4>
+        <ul>
+          <li><a href="tel:+39DACOMPLETARE">+39 348 1334529</a></li>
+          <li><a href="mailto:info@pietrediluce.it">info@pietrediluce.it</a></li>
+          <li><a href="contatti.html">Scrivici</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="anno"></span> Pietre di Luce. Tutti i diritti riservati.</span>
+      <span>P.IVA [DA COMPLETARE]</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('anno').textContent = new Date().getFullYear();</script>
+<script src="js/script.js"></script>
+</body>
+</html>

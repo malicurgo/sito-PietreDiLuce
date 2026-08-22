@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appartamento 2 | Pietre di Luce</title>
+<meta name="description" content="Appartamento 2 — Pietre di Luce, appartamenti in affitto breve.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">Pietre di Luce<span>Design &amp; Comfort Apartments</span></a>
+    <nav class="nav-principale">
+      <a href="index.html">Home</a>
+      <a href="appartamenti.html" class="attivo">Appartamenti</a>
+      <a href="foto.html">Gallery</a>
+      <!--<a href="video.html">Video</a>-->
+      <a href="dintorni.html">Storia e Natura</a>
+      <a href="contatti.html">Contatti</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Apri menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="sezione-chiara" style="padding-top:3.5rem;">
+  <div class="container">
+    <span class="eyebrow">Appartamento 2</span>
+    <h1 style="margin-bottom:.3em;">La Torretta</h1>
+    <p style="max-width:560px; margin-bottom:2.5rem;">148 mq di bellezza e accoglienza su due livelli, 2 camere e 2 bagni</p>
+
+    <div class="scheda-app">
+      <div class="galleria-principale" style="position:relative;">
+        <img src="immagini/appartamento2/1.jpg" alt="Appartamento 2 - foto principale" id="foto-principale">
+        <button type="button" class="freccia-galleria freccia-sx" aria-label="Foto precedente" onclick="cambiaFoto(-1)" style="position:absolute; top:50%; left:12px; transform:translateY(-50%); width:42px; height:42px; border:none; border-radius:50%; background:rgba(0,0,0,.45); color:#fff; font-size:1.3rem; line-height:1; cursor:pointer; display:flex; align-items:center; justify-content:center;">&#10094;</button>
+        <button type="button" class="freccia-galleria freccia-dx" aria-label="Foto successiva" onclick="cambiaFoto(1)" style="position:absolute; top:50%; right:12px; transform:translateY(-50%); width:42px; height:42px; border:none; border-radius:50%; background:rgba(0,0,0,.45); color:#fff; font-size:1.3rem; line-height:1; cursor:pointer; display:flex; align-items:center; justify-content:center;">&#10095;</button>
+        <div class="galleria-thumb">
+          <img src="immagini/appartamento2/1.jpg" alt="Appartamento 2 - foto 1">
+          <img src="immagini/appartamento2/2.jpg" alt="Appartamento 2 - foto 2">
+          <img src="immagini/appartamento2/3.jpg" alt="Appartamento 2 - foto 3">
+          <img src="immagini/appartamento2/4.jpg" alt="Appartamento 2 - foto 4">
+          <img src="immagini/appartamento2/5.jpg" alt="Appartamento 2 - foto 5">
+          <img src="immagini/appartamento2/6.jpg" alt="Appartamento 2 - foto 6">
+		  <img src="immagini/appartamento2/7.jpg" alt="Appartamento 2 - foto 7">
+          <img src="immagini/appartamento2/8.jpg" alt="Appartamento 2 - foto 8">
+          <img src="immagini/appartamento2/9.jpg" alt="Appartamento 2 - foto 9">
+          <img src="immagini/appartamento2/10.jpg" alt="Appartamento 2 - foto 10">
+          <img src="immagini/appartamento2/11.jpg" alt="Appartamento 2 - foto 11">
+          <img src="immagini/appartamento2/12.jpg" alt="Appartamento 2 - foto 12">		            
+        </div>
+      </div>
+
+      <div>
+        <h3>Dettagli</h3>
+        <ul class="lista-dotazioni">
+          <li>2-5 ospiti</li>
+          <li>2 camere, 1 soppalcata</li>
+          <li>2 bagni</li>
+          <li>148 m²</li>
+          <li>Wi-Fi</li>
+          <li>Aria condizionata</li>
+          <li>Cucina attrezzata con induzione</li>
+          <li>Biancheria inclusa</li>
+          <li>Posto auto con cancello automatico</li>
+          <li>TV</li>
+		  <li>Fotovoltaico con accumulo e climatizzazione ibrida</li>
+        </ul>
+
+        <a href="contatti.html" class="btn btn-primario">Richiedi disponibilità</a>
+      </div>
+    </div>
+
+    <div class="blocco-appartamenti">
+      <span class="eyebrow">Altri alloggi</span>
+      <h2 style="margin-bottom:1.5rem;">Scopri gli altri appartamenti</h2>
+      <div class="griglia-app" style="grid-template-columns:repeat(5,1fr);">
+        <a class="card-app" href="appartamento1.html" style="text-decoration:none;">
+          <div class="thumb"><img src="immagini/appartamento1/1.jpg" alt="Appartamento 1"></div>
+          <div class="info"><h3 style="font-size:1.1rem;">Loft</h3></div>
+        </a>
+        <a class="card-app" href="appartamento3.html" style="text-decoration:none;">
+          <div class="thumb"><img src="immagini/appartamento3/1.jpg" alt="Appartamento 3"></div>
+          <div class="info"><h3 style="font-size:1.1rem;">La Stanza del Giudice</h3></div>
+        </a>
+        <a class="card-app" href="appartamento4.html" style="text-decoration:none;">
+          <div class="thumb"><img src="immagini/appartamento4/1.jpg" alt="Appartamento 4"></div>
+          <div class="info"><h3 style="font-size:1.1rem;">Il Granaio</h3></div>
+        </a>
+        <a class="card-app" href="appartamento5.html" style="text-decoration:none;">
+          <div class="thumb"><img src="immagini/appartamento5/1.jpg" alt="Appartamento 5"></div>
+          <div class="info"><h3 style="font-size:1.1rem;">Dapersé</h3></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-griglia">
+      <div>
+        <h4>Pietre di Luce</h4>
+        <p>Via Pianetto Borgo, 12<br>47010 Galeata (FC)</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/pietrediluce_apartments/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:18px;height:18px;"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Esplora</h4>
+        <ul>
+          <li><a href="appartamenti.html">Appartamenti</a></li>
+          <li><a href="foto.html">Gallery</a></li>
+          <!--<li><a href="video.html">Video</a></li>-->
+          <li><a href="dintorni.html">Storia e Natura</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contatti</h4>
+        <ul>
+          <li><a href="tel:+39DACOMPLETARE">+39 348 1334529</a></li>
+          <li><a href="mailto:info@pietrediluce.it">info@pietrediluce.it</a></li>
+          <li><a href="contatti.html">Scrivici</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="anno"></span> Pietre di Luce. Tutti i diritti riservati.</span>
+      <span>P.IVA [DA COMPLETARE]</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('anno').textContent = new Date().getFullYear();</script>
+<script>
+  (function() {
+    var fotoPrincipale = document.getElementById('foto-principale');
+    var thumbs = document.querySelectorAll('.galleria-thumb img');
+    var indiceCorrente = 0;
+
+    window.cambiaFoto = function(direzione) {
+      if (!thumbs.length) return;
+      indiceCorrente = (indiceCorrente + direzione + thumbs.length) % thumbs.length;
+      fotoPrincipale.src = thumbs[indiceCorrente].src;
+      fotoPrincipale.alt = thumbs[indiceCorrente].alt;
+    };
+
+    thumbs.forEach(function(thumb, i) {
+      thumb.style.cursor = 'pointer';
+      thumb.addEventListener('click', function() {
+        indiceCorrente = i;
+        fotoPrincipale.src = thumb.src;
+        fotoPrincipale.alt = thumb.alt;
+      });
+    });
+  })();
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
